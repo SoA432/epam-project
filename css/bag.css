@@ -1,0 +1,296 @@
+.shopping-bag h1 
+{
+	font-family: OpenSansBold, sans-serif;
+	font-size:26px;
+	margin:15px 0 15px 80px;
+}
+
+.shopping-bag
+{
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+.main-bag
+{
+	overflow:hidden;
+	margin:25px auto;
+	max-width: 1180px;
+}
+
+.main-bag > .ppl
+{
+	
+	width:50%;
+	float:left;
+	margin: 0;
+	margin-bottom: 90px;
+}
+
+
+.photo-desc
+{
+	float:left;
+	width: 50%;
+	padding-left:30px;
+}
+
+.ppl > a 
+{
+	float:left;
+	width: 41%;
+}
+
+.ppl h5
+{
+	font-family: RobotoBold, sans-serif;
+    font-size:14px;
+    margin-top:10px;
+}
+
+.ppl h5 + p 
+{
+	margin-top:15px;
+	margin-bottom: 25px;
+	font-family: RobotoBold, sans-serif;
+    font-size:16.67px;
+}
+
+.ppl p + p
+{
+	font-family: RobotoRegular, sans-serif;
+    font-size:12px;
+    margin-bottom: 25px;
+    line-height: 2;
+}
+
+.ppl p + a 
+{
+	color:#f14a58;
+	font-family: OpenSansBold, sans-serif;
+	font-size: 13px;
+}
+/*start bag info*/
+.bag-info
+{
+	text-align: center;
+	background-color: #f7f7f7;
+	border-top:1px solid #e5e5e5;
+}
+
+.bag-info p 
+{
+	padding: 10px;
+	font-family: OpenSansBold, sans-serif;
+	font-size: 12px;
+}
+
+.bag-info p span 
+{
+	color:#f14a58;
+}
+
+/*end bag info*/
+/*start check-out*/
+
+.all-arrivals 
+{
+	margin-top:30px;
+	margin-bottom: 60px;
+}
+
+.check-out .left
+{
+	float:left;
+	margin-left: 80px;
+	font-family: RobotoBold, sans-serif;
+    font-size:13px;
+    margin-top:60px;
+}
+
+.check-out .right
+{
+	float:right;
+	margin-right: 80px;
+	margin-top:60px;
+}
+
+.check-out .right p 
+{
+	font-family: RobotoRegular, sans-serif;
+    font-size:12px;
+    text-align: right;
+}
+
+.check-out .right span 
+{
+	font-family: OpenSansBold, sans-serif;
+	font-size: 18px;
+}
+
+.bag-message
+{
+    font-family: OpenSansBold, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #f14a58;
+}
+
+.bag-message-hide
+{
+    display: none;
+}
+	
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+	.wrap
+	{
+		max-width: 768px;
+	}
+	
+	.main-bag > .ppl
+	{
+		width:60%;
+		margin-bottom: 50px;
+		margin-right: -10%;
+	}
+	.shopping-bag h1
+	{
+		font-size: 20px;
+	}
+	.ppl h5 + p
+	{
+		font-size: 14px;
+		margin-top:5px;
+		margin-bottom: 5px;
+	}
+
+	.ppl p + p
+	{
+		margin-bottom: 10px;
+	}
+
+	.ppl h5
+	{
+		padding-right: 60px;
+	}
+
+	.check-out .right span
+	{
+		font-size: 16px;
+	}
+
+	.all-arrivals > a > p
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 767px)
+{
+	.wrap
+	{
+		max-width: 375px;
+	}
+
+  	 .main-bag > .ppl
+  	{
+    	width: 100%;
+  	}
+
+  	.shopping-bag
+  	{
+    	border-top: 1px solid #e5e5e5;
+  	}
+
+  	.shopping-bag h1
+  	{
+   		margin: 15px 0 13px 25px;
+    	font-size: 18px;
+  	}
+
+  	.photo-desc
+  	{
+    	padding-left: 20px;
+  	}
+
+  	.ppl p + p
+  	{
+    	font-size: 10px;
+  	}
+
+  	.ppl h5 + p
+  	{
+    	margin-bottom: 15px;
+    	font-size: 14px;
+  	}
+
+  	.ppl h5
+  	{
+    	font-size: 12px;
+  	}
+
+  	.ppl p + a
+  	{
+    	font-size: 11px;
+  	}
+
+  	.ppl-hover-wrap span 
+  	{
+    	left: 17%;
+    	top: 43%;
+  	}
+  
+  	.main-bag > .ppl:last-child
+  	{
+    	margin-bottom: 25px;
+  	}
+  	.bag-info p
+  	{
+    	font-size: 10px;
+    	padding:10px 30px;
+  	}
+
+  	.check-out .left, .check-out .right
+  	{
+    	margin:0;
+  	}
+
+  	.check-out .right p
+  	{
+   		font-size: 10px;
+  	}
+
+  	.check-out .left
+  	{
+    	margin-top: 45px;
+    	font-size: 10px;
+  	}
+
+  	.check-out .right span
+  	{
+    	font-size: 14px;
+  	}
+
+  	.check-out .right
+  	{
+    	margin-top: 35px;
+  	}
+
+  	.all-arrivals > a > p
+  	{
+    	font-size: 18px;
+  	}
+
+  	.all-arrivals 
+  	{
+    	margin-top: 25px;
+    	width: 150px;
+    	margin-bottom: 35px;
+  	}
+  
+    .bag-message
+    {
+      font-size: 12px;
+    }
+}
